@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.module_name = "GoogleMapsUtils"
   s.swift_version = '5.9'
 
-  s.dependency 'GoogleMaps', '~> 10.0'
+  s.dependency 'GoogleMaps', '~> 10.1'
   s.static_framework = true
 
   s.test_spec 'Tests' do |unit_tests|
